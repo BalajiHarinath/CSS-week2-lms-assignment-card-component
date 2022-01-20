@@ -109,7 +109,7 @@ body {
   grid-column: 1/-1;
   display: flex;
   justify-content: space-between;
-  margin: 0rem 1rem;
+  margin: 1rem 1rem;
 }
 .btn-tom {
   background: transparent;
@@ -130,4 +130,18 @@ body {
 .more-btn-tom {
   font-size: 1.3rem;
   color: rgb(83, 80, 80);
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 16px;
+  }
 }
